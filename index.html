@@ -10,22 +10,23 @@
 </head>
 <body>
 <div class="container">
+   <div class="top">
     <h2>Word Scramble</h2>
+    <p class="time"><span><b>30</b>s</span></p>
+    </div>
     <div class="content">
-        <p class="word">enaxpnios</p>
+        <p class="word"></p>
+        <p class="hint" id="hint">Hint: <span></span></p>
         <div class="details">
-            <p class="hint">Hint: <span>The process of increase or grow</span></p>
-            <p class="time">Time Left:<span><b>30</b>s</span></p>
-
-            <input type="text" id="vword" name="vword" placeholder="Enter a valid word">
+            <input type="text" id="vword" name="vword" placeholder="Enter the correct word">
             <div class="buttons">
-                <button class="btn-one">Refresh Word</button>
-                <button class="btn-two">Check Word</button>
+                <button class="btn-one">Check Word</button>
+                <button class="btn-two">Next</button>
             </div>
         </div>
     </div>
 </div>
-<script src="script.js" defer></script>
-<script src="words.js" defer></script>
+<script src="/js/words.js" defer></script>
+<script src="/js/script.js" defer></script>
 </body>
 </html>
