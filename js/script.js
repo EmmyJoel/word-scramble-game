@@ -46,5 +46,3 @@ const checkWord = () => {
 
 checkBtn.addEventListener("click", checkWord);
 nextBtn.addEventListener("click", initGame);
-
-document.getElementById('hint')
